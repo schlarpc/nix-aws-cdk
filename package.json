@@ -2,10 +2,9 @@
   "private": true,
   "name": "aws-cdk-nix",
   "version": "1",
-    "bin": {
-      "cdk": "./node_modules/aws-cdk/bin/cdk"
-    }
-  ,
+  "bin": {
+    "cdk": "./node_modules/aws-cdk/bin/cdk"
+  },
   "dependencies": {
     "aws-cdk": "^2.1026.0"
   }
