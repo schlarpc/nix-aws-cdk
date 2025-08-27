@@ -1,0 +1,15 @@
+name: Nix flake test
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5.0.0
+      - uses: DeterminateSystems/nix-installer-action@v19
+      - run: nix build
+      - run: nix flake check
