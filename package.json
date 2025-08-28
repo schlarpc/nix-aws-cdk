@@ -1,7 +1,7 @@
 {
-  "private": true,
-  "name": "aws-cdk-nix",
+  "name": "@schlarpc/nix-aws-cdk",
   "version": "1",
+  "private": true,
   "bin": {
     "cdk": "./node_modules/aws-cdk/bin/cdk"
   },
