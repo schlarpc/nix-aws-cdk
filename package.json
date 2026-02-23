@@ -6,6 +6,6 @@
     "cdk": "./node_modules/aws-cdk/bin/cdk"
   },
   "dependencies": {
-    "aws-cdk": "^2.1106.1"
+    "aws-cdk": "^2.1107.0"
   }
 }
